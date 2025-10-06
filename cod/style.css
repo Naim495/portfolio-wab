@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #000;
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+  }
+  
+  .navbar .logo {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .navbar nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: 0.3s;
+  }
+  
+  .navbar nav a:hover {
+    color: #00ffff;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .hero-text h1 {
+    font-size: 5em;
+    font-weight: 900;
+    color: #f4f4f4;
+    letter-spacing: 2px;
+  }
+  
+  .subtext {
+    margin: 25px 0;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .cta {
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .hero-image {
+    position: relative;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    width: 300px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+  }
+  
+  .tag {
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #000;
+  }
+  
+  .tag-blue { background: #5ce1e6; top: 10%; left: 5%; }
+  .tag-yellow { background: #ffdd00; bottom: 10%; left: 0; }
+  .tag-orange { background: #ff7f50; top: 50%; right: 5%; }
+  .tag-green { background: #aaffaa; bottom: 0; right: 20%; }
+  .tag-pink { background: #ff80ab; top: 20%; right: 30%; }
+  
